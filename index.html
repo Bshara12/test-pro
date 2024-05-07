@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>test</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="fontawesome-free-6.5.1-web/css/all.min.css" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#">Devops</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav d-flex align-items-center ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link p-lg-2" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-lg-2" href="#">Servics</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-lg-2" href="#">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-lg-2" href="#">About us</a>
+            </li>
+            <div class="lang-select">
+              <i class="fa-solid fa-language"></i>
+              <select name id onchange="changeLang(this)">
+                <option value="en" selected>English</option>
+                <option value="ar">arabic</option>
+              </select>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div
+      class="Projects light-bg p-5 pt-2"
+      style="overflow-x: hidden; width: 100vw"
+    >
+      <h1 class="fw-bold">Projects</h1>
+      <h3 class="mb-4 mt-4">
+        Discover Our Extensive Portfolio: Explore a Range of Recent Projects and
+        Our Featured Showcase of Expertise
+      </h3>
+      <div class="row mb-4">
+        <!-- 1 -->
+        <div
+          class="Project d-flex justify-content-center align-items-center mb-5"
+        >
+          <div class="img col-md-6 col-lg-4 col-sm-12 active">
+            <img class="inner-project-image" src="img/1.webp" />
+          </div>
+          <div class="text col-md-6 col-lg-4 col-sm-12">
+            <h1 class="fw-bold" style="color: black">Nabd App</h1>
+            <h5 class="lh-base" style="color: #abb1c9">
+              The demand for versatile applications that work across different
+              devices is increasing rapidly in today's digital landscape. At
+              Devop.de, we are dedicated to providing exceptional user
+              experiences by bringing together mobile and web development. Our
+              latest project showcases this commitment by seamlessly integrating
+              Android and iOS applications with website programming, resulting
+              in a unified experience that has never been seen before.
+            </h5>
+            <button class="button">
+              <i class="fa-brands fa-apple me-1"></i>iOS
+            </button>
+            <button class="button">
+              <i class="fa-brands fa-android me-1"></i>Android
+            </button>
+          </div>
+          <div class="img col-md-6 col-lg-4 col-sm-12">
+            <img class="inner-project-image" src="img/2.png" />
+          </div>
+        </div>
+        <!-- -->
+        <!-- 2 -->
+        <div class="Project d-flex justify-content-center align-items-center">
+          <div class="img col-md-6 col-lg-4 col-sm-12">
+            <img class="inner-project-image" src="img/1w.webp" />
+          </div>
+          <div class="text col-md-6 col-lg-4 col-sm-12">
+            <h1 class="fw-bold" style="color: black">Demo Website</h1>
+            <h5 class="lh-base" style="color: #abb1c9">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+              vitae mauris ut ipsum hendrerit vestibulum eget eget erat. Sed
+              vestibulum tortor id elit consequat, eu tincidunt augue pretium.
+              Duis sollicitudin erat vel ante lobortis, sed ultrices libero
+              tempus. Vivamus vel risus sed ligula eleifend molestie. Proin id
+              dapibus libero.
+            </h5>
+            <button class="button">
+              <i class="fa-solid fa-globe me-1"></i>website
+            </button>
+          </div>
+          <div class="img col-md-6 col-lg-4 col-sm-12">
+            <img class="inner-project-image" src="img/2w.webp" />
+          </div>
+        </div>
+        <!--  -->
+        <!-- 3 -->
+        <div
+          class="Project d-flex justify-content-center align-items-center mb-5"
+        >
+          <div class="img col-md-6 col-lg-4 col-sm-12 active">
+            <img class="inner-project-image" src="img/3l.webp" />
+          </div>
+          <div class="text col-md-6 col-lg-4 col-sm-12">
+            <h1 class="fw-bold" style="color: black">Demo App</h1>
+            <h5 class="lh-base" style="color: #abb1c9">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae mauris ut ipsum hendrerit vestibulum eget eget erat. Sed vestibulum tortor id elit consequat, eu tincidunt augue pretium. Duis sollicitudin erat vel ante lobortis, sed ultrices libero tempus. Vivamus vel risus sed ligula eleifend molestie. Proin id dapibus libero.
+            </h5>
+            <button class="button">
+              <i class="fa-brands fa-apple me-1"></i>iOS
+            </button>
+            <button class="button">
+              <i class="fa-brands fa-android me-1"></i>Android
+            </button>
+          </div>
+          <div class="img col-md-6 col-lg-4 col-sm-12">
+            <img class="inner-project-image" src="img/3r.png" />
+          </div>
+        </div>
+        <!--  -->
+        <!-- 4 -->
+        <div
+        class="Project d-flex justify-content-center align-items-center mb-5"
+      >
+        <div class="img col-md-6 col-lg-4 col-sm-12 active">
+          <img class="inner-project-image" src="img/4l.webp" />
+        </div>
+        <div class="text col-md-6 col-lg-4 col-sm-12">
+          <h1 class="fw-bold" style="color: black">Demo2 App</h1>
+          <h5 class="lh-base" style="color: #abb1c9">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae mauris ut ipsum hendrerit vestibulum eget eget erat. Sed vestibulum tortor id elit consequat, eu tincidunt augue pretium. Duis sollicitudin erat vel ante lobortis, sed ultrices libero tempus. Vivamus vel risus sed ligula eleifend molestie. Proin id dapibus libero.
+          </h5>
+        </div>
+        <div class="img col-md-6 col-lg-4 col-sm-12">
+          <img class="inner-project-image" src="img/4r.webp" />
+        </div>
+      </div>
+        <!--  -->
+        <!-- 5 -->
+        <div
+        class="Project d-flex justify-content-center align-items-center mb-5"
+      >
+        <div class="img col-md-6 col-lg-4 col-sm-12 active">
+          <img class="inner-project-image" src="img/5l.webp" />
+        </div>
+        <div class="text col-md-6 col-lg-4 col-sm-12">
+          <h1 class="fw-bold" style="color: black">Demo3 App</h1>
+          <h5 class="lh-base" style="color: #abb1c9">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae mauris ut ipsum hendrerit vestibulum eget eget erat. Sed vestibulum tortor id elit consequat, eu tincidunt augue pretium. Duis sollicitudin erat vel ante lobortis, sed ultrices libero tempus. Vivamus vel risus sed ligula eleifend molestie. Proin id dapibus libero.          </h5>
+        </div>
+        <div class="img col-md-6 col-lg-4 col-sm-12">
+          <img class="inner-project-image" src="img/5r.png" />
+        </div>
+      </div>
+
+        <!--  -->
+      </div>
+      <div class="d-flex">
+      <button class="float-bl">
+        <i class="fa-solid fa-phone-volume"></i>
+      </button>
+      <button class="float-br r-1">
+        <i class="fa-brands fa-whatsapp"></i>
+      </button>
+    </div>
+    </div>
+    </div>
+    <!-- footer -->
+    <footer class="row p-5" style="background: rgb(48, 65, 156); ">
+      <div class="col-12 col-md-6">
+        <h1 style="color: white;">Devops</h1>
+        <p class="fotter-p">At DevOps IT, our team seamlessly blends technical expertise with creative flair. From managing infrastructure and automating deployment processes to crafting engaging digital marketing strategies and designing captivating visual assets, we deliver comprehensive solutions tailored to your business needs.</p>
+      <div class="media">
+        <button><i class="fa-brands fa-facebook-f"></i></button>
+        <button><i class="fa-brands fa-instagram"></i></button>
+        <button><i class="fa-brands fa-linkedin-in"></i></button>
+      </div>
+      </div>
+      <div class="info col-12 col-md-6 ">
+      <div>
+        <i class="ms-3 fa-solid fa-location-dot mb-3 fs-5"></i>
+        Rostocker Straße 19, 10553 Berlin
+      </div>
+      <div>
+        <i class="ms-2 fa-regular fa-envelope mb-3 fs-5"></i>
+        info@the-devops.de
+      </div>
+      <div>
+        <i class="ms-2 fa-solid fa-phone fs-5 "></i>
+        +491774941926
+      </div>
+      </div>
+    
+    
+    </footer>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
